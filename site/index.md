@@ -14,6 +14,8 @@ this website is built using an extremely homemade builder tool and a smidge of r
 i don't quite have blog generation support set up yet, but i'm working on it.
 i recommend viewing this site on a pc browser (it's usable on mobile, but it's not pretty)
 
+the source code of this site is available [here](https://github.com/ambyshframber/wobsite_v3)
+
 my music is available on [bandcamp](https://caliphate.bandcamp.com/releases)
 and [soundcloud](https://soundcloud.com/caliphate00). please buy it x
 
@@ -23,6 +25,7 @@ and [soundcloud](https://soundcloud.com/caliphate00). please buy it x
 - [gladiator war](https://github.com/ambyshframber/gladiator_war_rs_2), a dice game about fighting
 - [atodo](https://github.com/ambyshframber/atodo), a todo list manager
 - [neoercities](https://github.com/ambyshframber/neoercities) and [drneo](https://github.com/ambyshframber/drneo), a library and site builder tool for neocities
+- [staticcc](https://github.com/ambyshframber/staticcc), a static site generator (used for this site right in front of you!)
 
 #### curios and other tiny web things:
 - [computer ghost](computer_ghost.html)
