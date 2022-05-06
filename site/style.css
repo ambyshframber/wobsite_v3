@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  background-color: #454545;
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%); 
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media only screen and (min-width: 800px) {
+  body {
+    margin-left:20%;
+    margin-right:20%;
+  }
+}
+a:visited {
+  color: lightblue;
+}
+a:hover {
+  /*font-family:times;*/
+  font-weight: bold;
+} /*class-a dipshit CSS*/
+a { 
+  text-decoration: underline;
+  color: lightblue;
+}
+a.secret {
+  color: black;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  cursor: text;
+  font-weight: normal;
+}
+em {
+  font-family: Times;
+}
+/*div.header {
+  position: relative;
+  text-align: center;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 3px;
+  text-indent: 7px;
+}*/
+div.stickers {
+  text-align: center;
+}
+iframe.header {
+  height: 45px;
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+.vertical-center {
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+h1 em, span.header {
+  color: white;
+  background-color: #A724D5;
+  border: 0px solid black;
+  border-radius: 7px;
+  padding: 7px;
+  font-size: 2em;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid lightgrey;
+  text-align: left;
+  padding: 8px;
+}
+
+div.main, div.footer {
+  background-color: #454545;
+  border: 0px solid black;
+  border-radius: 7px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+div.footer {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+span.george {
+  color: cyan;
+  font-style: italic;
+  text-decoration: underline blue;
+  text-decoration-thickness: 2px
+}
+span.bucket {
+  color:var(--purple);
+  text-decoration: underline var(--rainbowright);
+
+}
+
+:root {
+  --red: #ffcaca;
+  --orange: #ffedc1;
+  --yellow: #feffb8;
+  --green: #c4ffcb;
+  --blue: #add8ff;
+  --purple: #ccafe9;
+
+  --rainbowright: linear-gradient(to right, var(--red) 0%, var(--orange) 20%, var(--yellow) 40%, var(--green) 60%, var(--blue) 80%,  var(--purple) 100%);
+}
+
+@keyframes wave{
+  0%    {top: 0px;}
+  25%   {top: -3px;}
+  50%   {top: 0px;}
+  75%  {top: 3px;}
+  100% {top: 0px;}
+}
+
+@keyframes rainbow{
+  0% {color: var(--red);}
+  17% {color: var(--orange);}
+  33% {color: var(--yellow);}
+  50% {color: var(--green);}
+  67% {color: var(--blue);}
+  83% {color: var(--purple);}
+  100% {color: var(--red);}
+}
