@@ -1,5 +1,5 @@
 ---
-TITLE=not found
+title=not found
 ---
 ##BODY##
 

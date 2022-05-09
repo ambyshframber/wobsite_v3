@@ -1,5 +1,5 @@
 ---
-TITLE=blog!
+title=blog!
 ---
 ##BODY##
 

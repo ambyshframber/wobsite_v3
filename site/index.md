@@ -1,5 +1,5 @@
 ---
-TITLE=amby's gay little website
+title=amby's gay little website
 ---
 ##BODY##
 # *hello*

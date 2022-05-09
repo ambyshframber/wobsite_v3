@@ -1,5 +1,5 @@
 ---
-TITLE=computer ghost
+title=computer ghost
 ---
 ##EXTRAHEAD##
 <script src="computer_ghost.js" defer></script>

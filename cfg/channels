@@ -1,0 +1,7 @@
+c1
+image=rss_img.png
+title=amby's gay blog
+path=blog
+description=behold, ramblings
+outfile=blog/rss.xml
+prepend=https://ambylastname.xyz/

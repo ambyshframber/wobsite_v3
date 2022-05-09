@@ -1,5 +1,5 @@
 ---
-TITLE=bees
+title=bees
 ---
 ##EXTRAHEAD##
 <script src="/bees.js" defer></script>

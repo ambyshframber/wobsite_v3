@@ -1,5 +1,5 @@
 ---
-TITLE=statistics
+title=statistics
 ---
 
 ##BODY##

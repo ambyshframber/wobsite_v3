@@ -1,5 +1,5 @@
 ---
-TITLE=go go gadget legal stuffs
+title=go go gadget legal stuffs
 ---
 
 ##BODY##
