@@ -1,17 +1,17 @@
   0       1       2       3       4       5       6       7       8       9       a       b       c       d       e       f       
 0                         POP     SWP     ROT     DUP     OVR     EQU     GTH     JMP     JNZ     JSR     STH                     
-1 LDZ     STZ     LDR     STR     LDA     STA     PIC     PUT     ADC     SBC     MUL     DIV     AND     IOR     XOR     SFT     
+1 LDZ     STZ     LDR     STR     LDA     STA     PIC     PUT     ADC     SBC     MUL     DVM     AND     IOR     XOR     SFT     
 2 SEC                     POP2    SWP2    ROT2    DUP2    OVR2    EQU2    GTH2    JMP2    JNZ2    JSR2    STH2                    
-3 LDZ2    STZ2    LDR2    STR2    LDA2    STA2    PIC2    PUT2    ADC2    SBC2    MUL2    DIV2    AND2    IOR2    XOR2    SFT2    
+3 LDZ2    STZ2    LDR2    STR2    LDA2    STA2    PIC2    PUT2    ADC2    SBC2    MUL2    DVM2    AND2    IOR2    XOR2    SFT2    
 4 CLC                     POPr    SWPr    ROTr    DUPr    OVRr    EQUr    GTHr    JMPr    JNZr    JSRr    STHr                    
-5 LDZr    STZr    LDRr    STRr    LDAr    STAr    PICr    PUTr    ADCr    SBCr    MULr    DIVr    ANDr    IORr    XORr    SFTr    
+5 LDZr    STZr    LDRr    STRr    LDAr    STAr    PICr    PUTr    ADCr    SBCr    MULr    DVMr    ANDr    IORr    XORr    SFTr    
 6 EXT                     POPr2   SWPr2   ROTr2   DUPr2   OVRr2   EQUr2   GTHr2   JMPr2   JNZr2   JSRr2   STHr2                   
-7 LDZr2   STZr2   LDRr2   STRr2   LDAr2   STAr2   PICr2   PUTr2   ADCr2   SBCr2   MULr2   DIVr2   ANDr2   IORr2   XORr2   SFTr2   
-8 LIT                                                             EQUk    GTHk    JMPk    JNZk    JSRk    STHk                    
-9 LDZk    STZk    LDRk    STRk    LDAk    STAk    PICk    PUTk    ADCk    SBCk    MULk    DIVk    ANDk    IORk    XORk    SFTk    
+7 LDZr2   STZr2   LDRr2   STRr2   LDAr2   STAr2   PICr2   PUTr2   ADCr2   SBCr2   MULr2   DVMr2   ANDr2   IORr2   XORr2   SFTr2   
+8 LIT                     RTI                                     EQUk    GTHk    JMPk    JNZk    JSRk    STHk                    
+9 LDZk    STZk    LDRk    STRk    LDAk    STAk    PICk    PUTk    ADCk    SBCk    MULk    DVMk    ANDk    IORk    XORk    SFTk    
 a LIT2                                                            EQUk2   GTHk2   JMPk2   JNZk2   JSRk2   STHk2                   
-b LDZk2   STZk2   LDRk2   STRk2   LDAk2   STAk2   PICk2   PUTk2   ADCk2   SBCk2   MULk2   DIVk2   ANDk2   IORk2   XORk2   SFTk2   
+b LDZk2   STZk2   LDRk2   STRk2   LDAk2   STAk2   PICk2   PUTk2   ADCk2   SBCk2   MULk2   DVMk2   ANDk2   IORk2   XORk2   SFTk2   
 c LITr                                                            EQUkr   GTHkr   JMPkr   JNZkr   JSRkr   STHkr                   
-d LDZkr   STZkr   LDRkr   STRkr   LDAkr   STAkr   PICkr   PUTkr   ADCkr   SBCkr   MULkr   DIVkr   ANDkr   IORkr   XORkr   SFTkr   
+d LDZkr   STZkr   LDRkr   STRkr   LDAkr   STAkr   PICkr   PUTkr   ADCkr   SBCkr   MULkr   DVMkr   ANDkr   IORkr   XORkr   SFTkr   
 e LITr2                                                           EQUkr2  GTHkr2  JMPkr2  JNZkr2  JSRkr2  STHkr2                  
-f LDZkr2  STZkr2  LDRkr2  STRkr2  LDAkr2  STAkr2  PICkr2  PUTkr2  ADCkr2  SBCkr2  MULkr2  DIVkr2  ANDkr2  IORkr2  XORkr2  SFTkr2  
+f LDZkr2  STZkr2  LDRkr2  STRkr2  LDAkr2  STAkr2  PICkr2  PUTkr2  ADCkr2  SBCkr2  MULkr2  DVMkr2  ANDkr2  IORkr2  XORkr2  SFTkr2  
