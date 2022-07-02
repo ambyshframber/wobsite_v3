@@ -11,7 +11,6 @@ you can contact me on discord (ambylastname#7968), email (ambyshframber at gmail
 or irc (if you happen to frequent Apionet or SkipIRC)
 
 this website is built using an extremely homemade builder tool and a smidge of rsync.
-i don't quite have blog generation support set up yet, but i'm working on it.
 i recommend viewing this site on a pc browser (it's usable on mobile, but it's not pretty)
 
 the source code of this site is available [here](https://github.com/ambyshframber/wobsite_v3)
@@ -30,6 +29,7 @@ and [soundcloud](https://soundcloud.com/caliphate00). please buy it x
 #### curios and other tiny web things:
 - [computer ghost](computer_ghost.html)
 - [bees](bees.html)
+- [is the internet working?](is_the_internet_working.html)
 
 this site was last updated at REP=BUILDTIME
 

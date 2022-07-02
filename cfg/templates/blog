@@ -13,6 +13,11 @@
 REP=HEADER
 ##BODY##
 
+<hr>
+##rss_pubdate##
+
+*[back 2 blog](/blog)*
+
 </div>
 <div class="footer">
 

@@ -16,7 +16,7 @@ the following is my stat tracker. i encourage you to make one of your own
 | bitches | none 😔 |
 | talent | boundless |
 | programming langs learned | 5 |
-| programming langs made | 1 |
+| programming langs made | 2 |
 | names | 3 |
 | hotel | trivago |
 | EPs released | 1 |
@@ -24,6 +24,8 @@ the following is my stat tracker. i encourage you to make one of your own
 | sample rate | 48khz |
 | favourite break | amen |
 | sleep | not enough |
+| error code | 52 GONE |
+| gemini servers made | 1 |
 | blood | inside (usually) |
 | favourite crab | ferris |
 

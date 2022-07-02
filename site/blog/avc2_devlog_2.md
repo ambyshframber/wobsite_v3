@@ -3,6 +3,7 @@ rss_chan_id=c1
 rss_pubdate=Fri, 20 May 2022 22:30:40 +0100
 title=AVC2 devlog 2
 rss_description=i made hello world in a hex editor
+template=blog
 ---
 
 ##BODY##
@@ -16,5 +17,3 @@ now comes the hard part: the assembler. i've made a few assemblers in my time, o
 anyway. the assembler works by first tokenising the asm code, then parsing it into words. a word is either a byte (both instructions and raw byte data), a label, a label invocation, or a pad directive. it then runs over the list of words a few times, first to get all the label positions, and a second time to actually turn it into a rom. i could theoretically get the label positions during the parsing, but that would potentially make it harder to implment stuff later.
 
 this ends up being a 3-pass assembler, which is more than usual. after it's done, though, i should be able to extend the ISA and device spec as much as i like and only make occasional changes to the assembler. one idea i'd particularly like to try is a drive device that uses a headerless raw data file as the drive, and you have to build a file system from scratch. possibly also a "boot from drive" system. i also wanna make a higher-level language that compiles to AVC2 bytecode, but i don't know how feasible that is at my current skill level
-
-*[back 2 blog](/blog)*

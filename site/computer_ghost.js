@@ -11,6 +11,6 @@ function ghost() {
 function hash(string) {
     let utf8 = new TextEncoder().encode(string);
     return crypto.subtle.digest('SHA-256', utf8).then((hashBuffer) => {
-      return Array.from(new Uint8Array(hashBuffer));
+        return Array.from(new Uint8Array(hashBuffer));
     });
-  }
+}

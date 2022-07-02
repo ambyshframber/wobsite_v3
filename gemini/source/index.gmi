@@ -1,0 +1,14 @@
+# hello
+
+welcome to amber jay allison lastname's personal corner of gemspace
+
+## so who am i and what do i do?
+
+i'm a transgender bisexual hacker girl or something. i write music, program things that may or may not need to be programmed, and occasionally perform digital necromancy.
+
+this site is gonna be much lighter than my main site (on the big internet) because i have a much better content generator for that already. plus kepler (my gemini server) is a bit slow and hacky and i'm not sure how it would cope if i tried to hack in CGI.
+
+## things i have done
+
+=> kepler kepler, my homemade gemini server
+=> https://ambylastname.xyz my main site (https link)
