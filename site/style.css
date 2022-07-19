@@ -73,6 +73,12 @@ h1 em, span.header {
   font-style: italic;
   font-family: Arial, sans-serif;
 }
+div.main img.middle {
+  width: 100%;
+  height: 100%; 
+  object-fit: contain;
+}
+
 
 table {
   font-family: arial, sans-serif;

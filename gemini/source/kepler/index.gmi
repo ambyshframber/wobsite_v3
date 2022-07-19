@@ -5,3 +5,5 @@ kepler is a simple gemini server. it's written in rust and took me under 48 hour
 the site you're viewing right now is running on kepler, which i'm honestly really proud of. i even have it set up as a systemd service so it launches on boot and everything!
 
 => https://github.com/ambyshframber/kepler github repository (https link)
+
+documentation soon tm

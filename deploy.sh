@@ -4,7 +4,7 @@ cd /home/ajal/Documents/code/wobsite_staticcc
 now=$(date +%Y-%m-%d)
 kepler_init="2022-07-01"
 time_since_kepler=$(dateutils.ddiff $kepler_init $now)
-time staticcc -tsSf -R "BUILDTIME=$(date --rfc-2822)" -R "KEPLER_LIFETIME=$time_since_kepler"
+time staticcc -tsSf -R "BUILDTIME=$(date --rfc-2822)"
 
 echo -e "\nsyncing main site..."
 rsync -av --delete --exclude=/data build/ ubuntu@ambylastname.xyz:~/wobsite/content

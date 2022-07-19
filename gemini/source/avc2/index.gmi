@@ -1,0 +1,21 @@
+# avc2
+
+avc2 is a virtual cpu. it is a stack based 16-bit virtual machine, with an emulated memory-mapped io system.
+
+avc2 came about after i discovered Uxn, another virtual stack machine. Uxn is a lovely little system with a few crippling flaws, the main one being the documentation. Uxn has no published specification. the assembler isn't great either. i was gonna make some stuff for uxn, but after realising how hard it would be to make my own better assmbler/toolchain i decided to just go again from the ground up.
+
+the thing about stack machines is they make simple things easier, but complicated things much harder (from a programming standpoint at least). when the stack is coupled to a register (a la x86) you can just move the whole thing, and essentially have multiple stacks for free. this, coupled with hardware interrupts, makes multithreading almost trivial. only having two stacks and no way to move either of them, or get the current stack pointer, makes multithreading pretty much impossible. but then again, avc2 was never meant to be a proper cpu, just an experiment to improve where uxn failed.
+
+=> https://github.com/ambyshframber/avc2 github (https link)
+
+## adjacent projects
+
+avc2 has a couple other sub-projects that together form something of an ecosystem. the first was a2asm, an fairly well-featured assembler. a2asm has directives, macros, labels and data literals. it's nothing close to gas or any modern compiler, but it's cool and i'm proud of it.
+
+after a2asm came avdrw, a block-level read-write tool for avd archives; and after that was a2xxd, a combination hexdumper and disassembler.
+
+=> https://github.com/ambyshframber/a2asm a2asm (https link)
+=> https://github.com/ambyshframber/avdrw avdr2 (https link)
+=> https://github.com/ambyshframber/a2xxd a2xxd (https link)
+
+at some point i'll write up a proper formal specification and publish it here, along with some other resources for using the system.

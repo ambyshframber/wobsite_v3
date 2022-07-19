@@ -21,8 +21,8 @@ and [soundcloud](https://soundcloud.com/caliphate00). please buy it x
 <a href="https://wobble.town/visit/21"><img src="https://wobble.town/visit/21/wobble.gif" style="height: 1em;" ></a> this is beans and she is pink
 
 #### major projects:
-- [gladiator war](https://github.com/ambyshframber/gladiator_war_rs_2), a dice game about fighting
-- [atodo](https://github.com/ambyshframber/atodo), a todo list manager
+- [kepler](projects/kepler.html), a simple gemini server
+- [avc2](projects/avc2), a virtual cpu
 - [neoercities](https://github.com/ambyshframber/neoercities) and [drneo](https://github.com/ambyshframber/drneo), a library and site builder tool for neocities
 - [staticcc](https://github.com/ambyshframber/staticcc), a static site generator (used for this site right in front of you!)
 

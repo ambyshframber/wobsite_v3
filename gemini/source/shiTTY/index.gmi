@@ -1,0 +1,23 @@
+# shiTTY
+
+a while back, i pulled a 40*2 character lcd text display out of a gps time server. i had a play around with it, but couldn't figure out how to talk to it from an arduino. so i left it sitting on my desk for a while.
+
+a few days ago, i found out that a library exists for the chip inside it (an HD44780, for those interested). what followed was probably one my best worst idea yet.
+i decided to turn this thing into a terminal. it displays text, right? this totally isn't a stupid idea.
+
+so i wrote some c, and here we are. i have a two line terminal. it's awful and i love it.
+
+shiTTY v1 has scrolling, hardware clearing, a contrast adjuster (with 10x the resistance it needs) and an led. it takes data over usb at 9600 baud and displays it.
+
+it also has a *backslash translation unit*. the character set of the display is regular 7 bit ascii, with a japanese upper codepage. HOWEVER. instead of regular 0x5c ascii backslash, it has a yen sign. this is not ideal.
+luckily, the chip has some CGRAM, or character generator ram. this allows you to create 10 arbitrary characters while the display is turned on. shiTTY makes a backslash and tells the display to display that when it gets 0x01 (not 0x00 because that would fuck up c string handling). it then translates any incoming backslashes to 0x01 before sending them to the display and storing them in the internal buffer.
+
+in conclusion: do stupid things. it's fun.
+
+
+the code definitely works on arduino IDE 1.8.19, targeting a duemilanova. no guarantees for other boards or IDE versions. the specific display i'm using is a WH4002A-TMI-JT#, but it should work with any 2-line HD44780 display if you change the #define WIDTH 40. again, no guarantees, i can't test it on anything other than my own hardware.
+
+=> shiTTY/shiTTY.c v1 source code (only one file!)
+there would be a picture here but for some reason kepler wasn't serving it properly. for now, you can get it from the https version of this page
+=> https://ambylastname.xyz/projects/shiTTY
+wiring diagrams soon tm

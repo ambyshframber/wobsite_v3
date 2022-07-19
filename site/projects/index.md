@@ -9,4 +9,6 @@ i like making things. i like watching projects come together over time into a fu
 
 but enough philosophy! i've made some stuff and i wanna show it off.
 
+- [shiTTY](shiTTY), an awful terminal
 - [kepler](kepler.html), a gemini server
+- [avc2](avc2), a virtual cpu
