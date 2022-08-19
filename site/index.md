@@ -26,6 +26,8 @@ and [soundcloud](https://soundcloud.com/caliphate00). please buy it x
 - [neoercities](https://github.com/ambyshframber/neoercities) and [drneo](https://github.com/ambyshframber/drneo), a library and site builder tool for neocities
 - [staticcc](https://github.com/ambyshframber/staticcc), a static site generator (used for this site right in front of you!)
 
+more projects [here](projects)
+
 #### curios and other tiny web things:
 - [computer ghost](computer_ghost.html)
 - [bees](bees.html)

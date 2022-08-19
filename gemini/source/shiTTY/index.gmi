@@ -18,6 +18,6 @@ in conclusion: do stupid things. it's fun.
 the code definitely works on arduino IDE 1.8.19, targeting a duemilanova. no guarantees for other boards or IDE versions. the specific display i'm using is a WH4002A-TMI-JT#, but it should work with any 2-line HD44780 display if you change the #define WIDTH 40. again, no guarantees, i can't test it on anything other than my own hardware.
 
 => shiTTY/shiTTY.c v1 source code (only one file!)
-there would be a picture here but for some reason kepler wasn't serving it properly. for now, you can get it from the https version of this page
+=> shiTTY/shiTTY.jpg demo image
 => https://ambylastname.xyz/projects/shiTTY
 wiring diagrams soon tm
