@@ -35,7 +35,7 @@ more projects [here](projects)
 
 this site was last updated at REP=BUILDTIME
 
-<img src="https://berrymot.github.io/i/blahaj.png" style="height: 1em;" /> certified Good Website by blåhaj
+<img id="blahaj" src="https://berrymot.github.io/i/blahaj.png" style="height: 1em;" /> certified Good Website by blåhaj
 
 ##FOOT##
 REP=WEBRINGS

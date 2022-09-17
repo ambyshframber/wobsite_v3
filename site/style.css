@@ -79,6 +79,15 @@ div.main img.middle {
   object-fit: contain;
 }
 
+#blahaj {
+  animation: shark_spin 5s linear infinite;
+  height: 1em;
+}
+@keyframes shark_spin {
+  from { rotate: 0deg; }
+  50% { rotate: 180deg; }
+  to { rotate: 360deg; }
+}
 
 table {
   font-family: arial, sans-serif;
