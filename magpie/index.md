@@ -1,5 +1,6 @@
 ---
 title=magpie
+template=magpie
 ---
 ##EXTRAHEAD##
 <style type="text/css">
@@ -9,9 +10,9 @@ title=magpie
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-kd4e{background-color:#34ff34;text-align:left;vertical-align:top}
-.tg .tg-gi7g{background-color:#ff00ff;text-align:left;vertical-align:top}
-.tg .tg-99c3{background-color:#38fff8;text-align:left;vertical-align:top}
+.tg .tg-kd4e{background-color:#34ff34;text-align:left;vertical-align:top;color:black}
+.tg .tg-gi7g{background-color:#ff00ff;text-align:left;vertical-align:top;color:black}
+.tg .tg-99c3{background-color:#38fff8;text-align:left;vertical-align:top;color:black}
 </style>
 ##BODY##
 
