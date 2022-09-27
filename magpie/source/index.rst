@@ -28,6 +28,7 @@ The Magpie emulator is available on github here_.
    registers
    instructions
    interrupts
+   orangejuice/index
 
 
 Project status
