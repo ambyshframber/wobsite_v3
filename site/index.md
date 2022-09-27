@@ -18,11 +18,14 @@ the source code of this site is available [here](https://github.com/ambyshframbe
 my music is available on [bandcamp](https://caliphate.bandcamp.com/releases)
 and [soundcloud](https://soundcloud.com/caliphate00). please buy it x
 
+check out my [now](now.html) page
+
 <a href="https://wobble.town/visit/21"><img src="https://wobble.town/visit/21/wobble.gif" style="height: 1em;" ></a> this is beans and she is pink
 
 #### major projects:
 - [kepler](projects/kepler.html), a simple gemini server
 - [avc2](projects/avc2), a virtual cpu
+- [magpie](magpie), another virtual cpu
 - [neoercities](https://github.com/ambyshframber/neoercities) and [drneo](https://github.com/ambyshframber/drneo), a library and site builder tool for neocities
 - [staticcc](https://github.com/ambyshframber/staticcc), a static site generator (used for this site right in front of you!)
 
@@ -34,8 +37,6 @@ more projects [here](projects)
 - [is the internet working?](is_the_internet_working.html)
 
 this site was last updated at REP=BUILDTIME
-
-<img id="blahaj" src="https://berrymot.github.io/i/blahaj.png" style="height: 1em;" /> certified Good Website by blåhaj
 
 ##FOOT##
 REP=WEBRINGS

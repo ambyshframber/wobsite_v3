@@ -16,5 +16,5 @@ rsync -av --delete --exclude=/data gemini/build/ ubuntu@ambylastname.xyz:~/gem_s
 
 echo -e "\nbuilding magpie docs..."
 cd magpie
-make html
+make clean html
 rsync -av --delete build/html/ ubuntu@ambylastname.xyz:~/wobsite/content/magpie
