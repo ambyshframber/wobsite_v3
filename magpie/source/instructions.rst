@@ -199,3 +199,23 @@ movsx - move with sign extension
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sign extends the bottom 8 bits of rs and stores the resulting value into rd.
+
+jmp
+^^^
+
+Jumps to the address in rs and stores the return address in rd.
+
+jz
+^^
+
+As above, iff the zero flag is set.
+
+jnz
+^^^
+
+As above, iff the zero flag is clear.
+
+jn
+^^
+
+As above, iff the negative flag is set.
