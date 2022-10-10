@@ -63,6 +63,17 @@ st - store
 
 Store the value in rd to memory, using an address from ra and an offset from ro.
 
+ldb - load byte
+^^^^^^^^^^^^^^^
+
+Load an 8 bit value from memory, using an address from ra and an offset from ro, into rd.
+
+stb - store byte
+^^^^^^^^^^^^^^^^
+
+Store the value in the bottom 8 bits of rd to memory, using an address from ra and an offset from ro.
+
+
 J format
 --------
 
@@ -84,6 +95,16 @@ rjal - relative jump and link
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As above, but store the return address in r14.
+
+rjz - relative jump zero
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+rjmp iff the zero flag is set.
+
+rjn - relative jump negative
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+rjmp iff the negative flag is set.
 
 R format
 --------
@@ -205,17 +226,17 @@ jmp
 
 Jumps to the address in rs and stores the return address in rd.
 
-jz
-^^
+jz - jump zero
+^^^^^^^^^^^^^^
 
-As above, iff the zero flag is set.
+jmp iff the zero flag is set.
 
-jnz
-^^^
+jnz - jump not zero
+^^^^^^^^^^^^^^^^^^^
 
-As above, iff the zero flag is clear.
+jmp iff the zero flag is clear.
 
-jn
-^^
+jn - jump negative
+^^^^^^^^^^^^^^^^^^
 
-As above, iff the negative flag is set.
+jmp iff the negative flag is set.

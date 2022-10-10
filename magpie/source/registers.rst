@@ -21,6 +21,11 @@ The remaining 11 bits of the status register are reserved.
 Flags in detail
 ---------------
 
+The flags are arranged in the register as such::
+
+    15             0
+    -----------ficnz
+
 zero
 ^^^^
 
