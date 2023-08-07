@@ -1,14 +1,12 @@
 ---
 title=kepler
 ---
-##EXTRAHEAD##
-<script src="kepler_time.js" defer></script>
 ##BODY##
 
 # *kepler*
 
 kepler is a [gemini](https://gemini.circumlunar.space/) server, written in just over 300 lines of rust and a lot of wishful thinking.
-it currently runs [my gemini site](gemini://ambylastname.xyz/) and no others, because it's only existed <span id="kepler_lifetime">since 2022/07/01</span>.
+it currently runs [my gemini site](gemini://ambylastname.xyz/) and no others (as far as i am aware).
 
 i chose the name kepler cuz a lot of other gemini stuff is named after space things, including the protocol itself.
 

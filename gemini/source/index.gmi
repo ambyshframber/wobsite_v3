@@ -27,6 +27,13 @@ this site is gonna be much lighter than my main site (on the big internet) becau
 => hacking.gmi hacking
 => cool_old_words.gmi old timey sounding words
 
+## this capsule is part of low earth orbit
+
+=> gemini://tilde.team/~khuxkm/leo/ homepage
+=> gemini://tilde.team/~khuxkm/leo/next.cgi?gemini%3A%2F%2Fambylastname.xyz next
+=> gemini://tilde.team/~khuxkm/leo/prev.cgi?gemini%3A%2F%2Fambylastname.xyz prev
+=> gemini://tilde.team/~khuxkm/leo/rand.cgi?gemini%3A%2F%2Fambylastname.xyz random
+
 
 > "Good design is as little design as possible."
 > - some German motherfucker 

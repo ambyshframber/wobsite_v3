@@ -24,6 +24,6 @@ The serial device holds an internal 16 byte buffer, and will interrupt if either
 
 Bytes are added to the buffer from the emulator's stdin. emu sets the terminal to raw mode, so control characters like ^C and ^D are passed through into the emulator.
 
-Writing a byte to serial RX will send it to the emulator's standard output. Bear in mind that emu sets the terminal to raw mode, so you'll need to write CRLF for a newline, not just LF. Reading 16 bits from e002-e003 will return the next byte in the buffer if one is present, or -1 (ffff) if one is not.
+Writing a byte to serial TX will send it to the emulator's standard output. Bear in mind that emu sets the terminal to raw mode, so you'll need to write CRLF for a newline, not just LF. Reading 16 bits from e002-e003 will return the next byte in the buffer if one is present, or -1 (ffff) if one is not.
 
 Writing any value to e100 will stop the emulator.

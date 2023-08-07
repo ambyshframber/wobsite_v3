@@ -8,7 +8,7 @@ this is a [now page](https://nownownow.com/about)! make one of your own!
 
 ## projects
 
-[magpie](/magpie)! the main page of the magpie docs explains more, but basically i'm making another imaginary computer. the emulator and assembler are pretty much done, and i'm half working on a forth for it. eventually&trade; i'm gonna make a tiny OS to run on it, maybe after i spec out and build a 32 bit version.
+[magpie](/magpie) is parked for the time being, and i'm messing around with bare metal forth on raspberry pi instead.
 
 i'm working on and off on my website pretty much all the time. the main design hasnt changed in months, but every now and then i add a page or two.
 
