@@ -12,6 +12,9 @@ that i think should be shared with the InterWebs.
 
 ## current pages:
 
+- [jamforth RNG](jamforth_rng.html) (10/03/24)
+- [jamforth conditionals](jamforth_conditionals.html) (03/03/24)
+- [6502 misadventures, part 1](6502_misadventures.html) (30/10/23)
 - [low level dev, pt. 1](low_level_pt_1.html) (18/02/23)
 - [further thoughts on risc](further_thoughts_on_risc.html) (11/12/22)
 - [musings on stack and registers](musings_on_stack_and_registers.html) (11/12/22)

@@ -44,22 +44,6 @@ a.secret {
 div.stickers {
   text-align: center;
 }
-iframe.header {
-  height: 45px;
-  width: 100%;
-  border: none;
-  padding: 0;
-}
-.vertical-center {
-  height: 100%;
-  margin: 0;
-  position: absolute;
-  top: 40%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-top: auto;
-  margin-bottom: auto;
-}
 h1 em, span.header {
   color: white;
   background-color: #A724D5;

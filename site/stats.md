@@ -12,10 +12,10 @@ the following is my stat tracker. i encourage you to make one of your own
 |---|---|
 | grub rescues | 3 |
 | hard drives replaced | 1 |
-| twitter bots | 2 |
-| bitches | none 😔 |
+| twitter bots | none (rip CBDQ and unix fortune bot) |
 | talent | boundless |
 | programming langs learned | 5 |
+| bitches | none 😔 |
 | programming langs made | 2 |
 | names | 3 |
 | hotel | trivago |
@@ -28,4 +28,6 @@ the following is my stat tracker. i encourage you to make one of your own
 | gemini servers made | 1 |
 | blood | inside (usually) |
 | favourite crab | ferris |
+| L1 cache | 64kb |
+| baud | 19k2 |
 

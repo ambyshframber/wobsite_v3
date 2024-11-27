@@ -12,4 +12,3 @@ all content on this site (and in fact all non-code content made by me) is availa
 - all buttons to the right of MOIST (including MOIST itself) are from [here](https://cyber.dabamos.de/88x31/)
 - all my music is under [cc by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/), so i can tell Bad People to stop making money off it if any decide to do so. if you want a commercial license, get in touch!
 
-all my code is MIT, cuz it's a way more readable license than the gpl

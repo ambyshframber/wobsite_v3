@@ -31,7 +31,7 @@ let's imagine a hypothetical CPU. it has a 16 bit address bus, meaning it can ad
 
 the next bit is where it gets slightly more complicated. we want the CPU to be able to talk to more things than just the memory, but we don't want to add dedicated I/O instructions. what we want is for certain address ranges to correspond to certain devices. enter: chip select and logic gates.
 
-## chip select
+### chip select
 
 each peripheral device (including memory) has a chip select line. this goes alongside the data/address buses and the R/W line, and tells the device if it should do stuff or not. this is done using what's called tri-state logic. each output line of the device can either be high, low, or high-impedence (which basically means it acts like it's not connected). when the device is not selected, it ignores all inputs and sets its outputs to high-impedence. when it *is* selected, it works as normal. some chip selects are active-high (device is selected when the pin is driven to a high logic level) but most are active-low (devices is selected when the pin is pulled low).
 
